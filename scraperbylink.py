@@ -60,4 +60,4 @@ groups_list = ['https://web.whatsapp.com/accept?code='+ x[-22:] for x in links]
 
 for x in groups_list:
     numbers_collecter_by_group_link(x)
-    wb.save("data2.xlsx")
+    wb.save("data.xlsx")
