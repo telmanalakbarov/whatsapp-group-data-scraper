@@ -4,7 +4,7 @@ import openpyxl
 
 wb = openpyxl.Workbook()
 
-PATH = (r"C:\webdrivers\geckodriver.exe")
+PATH = (r"geckodriver.exe")
 driver = webdriver.Firefox(executable_path=PATH)
 
 driver.get("https://web.whatsapp.com/")
